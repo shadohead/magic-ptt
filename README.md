@@ -46,6 +46,12 @@ You can **download the latest version as a `.exe` file** from the [Releases](../
 
 > **Note:** Run as administrator for certain games like Valorant.
 
+## 💖 Support the Project
+
+If you find Magic Push-to-Talk useful, consider supporting its development:
+
+- [PayPal](https://www.paypal.me/shadohead)
+
 ## 📄 License
 
 Licensed under GPL 3.0. See [LICENSE](LICENSE) for details.
