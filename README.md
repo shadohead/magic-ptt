@@ -1,77 +1,62 @@
-# Magic Push-to-Talk
+# Magic Push-to-Talk (MagicPTT)
 
-Magic Push-to-Talk (MagicPTT) is a desktop application designed to provide a customizable and intelligent push-to-talk functionality. The application listens to your microphone input and automatically activates a push-to-talk key when your voice crosses a certain threshold. The app also allows you to configure various settings, including the microphone input, threshold levels, push-to-talk key, and more.
+Magic Push-to-Talk (MagicPTT) is a desktop app that provides customizable push-to-talk functionality by activating a key when your voice crosses a set threshold.
 
-## Features
+## 📥 Download
 
-- **Automatic Noise Threshold Detection:** Automatically calibrates the noise floor and adjusts the threshold dynamically.
-- **Manual Threshold Mode:** Allows you to set a manual threshold for activation.
-- **Customizable Push-to-Talk Key:** Set any key as your push-to-talk trigger.
-- **Test Mode:** Test the functionality without triggering actual key presses.
-- **Configurable Release Delay:** Set a custom delay before deactivating the push-to-talk key.
-- **Visual Audio Meter:** Displays real-time audio levels and threshold indication.
-- **Persistent Configuration:** Save and load settings from a configuration file.
+You can **download the latest version as a `.exe` file** from the [Releases](../../releases) tab for easy installation.
 
-## Requirements
+---
+
+## ✨ Features
+
+- **Automatic & Manual Thresholds:** Dynamic calibration or manual setting.
+- **Custom Push-to-Talk Key:** Assign any key as your trigger.
+- **Test Mode:** Test without sending key presses.
+- **Release Delay:** Customize how long the key stays active.
+- **Audio Meter:** Real-time audio levels display.
+- **Configurable:** Save/load settings automatically.
+
+## 🛠 Requirements
 
 - Python 3.6+
-- PyQt6
-- PyAudio
-- pynput
-- numpy
-- pywin32 (for Windows key event handling)
+- PyQt6, PyAudio, pynput, numpy, pywin32
 
-## Installation
+## 🚀 Installation
 
-1. Clone the repository or download the source code.
-2. Install the required Python packages:
+1. Clone or download the source code.
+2. Install dependencies:
     ```sh
     pip install PyQt6 pyaudio pynput numpy pywin32
     ```
-3. Run the application:
+3. Run the app:
     ```sh
     python magic_ptt.py
     ```
 
-## Usage
+> **Note:** You can also download the latest `.exe` file from the [Releases](../../releases) tab for easy installation.
 
-1. **Microphone Selection:** Choose your preferred microphone from the dropdown list.
-2. **Push-to-Talk Key:** Click the button to set a custom push-to-talk key. The default key is 'V'.
-3. **Threshold Offset:** Adjust the threshold offset to fine-tune the sensitivity.
-4. **Release Delay:** Set the release delay duration for how long the push-to-talk key remains active after speaking.
-5. **Manual Threshold Mode:** Enable manual threshold mode and set the threshold level using the slider.
-6. **Start Monitoring:** Click the "Start" button to begin monitoring your audio input.
-7. **Test Mode:** Enable test mode if you want to test the application without sending actual key presses.
-8. **Configuration:** Settings are automatically saved on exit and loaded on startup.
+## 📝 Usage
 
-## Important Note
+1. **Select Microphone:** Choose your mic.
+2. **Set Push-to-Talk Key:** Default is 'V'.
+3. **Adjust Threshold & Delay:** Fine-tune sensitivity and delay.
+4. **Enable Test Mode:** Test without actual key presses.
+5. **Start Monitoring:** Begin audio monitoring.
 
-For the application to function correctly in certain games, such as Valorant, **you must run Magic Push-to-Talk as an administrator**. This is necessary for the app to interact with the game's input system, which may have elevated security restrictions.
+> **Note:** Run as administrator for certain games like Valorant.
 
-## Customization
+## 📄 License
 
-- **Threshold Offset:** Adjust the slider to change the dB level required to activate the push-to-talk key.
-- **Manual Threshold:** Set a specific dB level for the manual mode.
-- **Release Delay:** Control how long the key stays active after your voice drops below the threshold.
+Licensed under GPL 3.0. See [LICENSE](LICENSE) for details.
 
-## Troubleshooting
+## 🤝 Contributing
 
-- **Microphone Not Detected:** Ensure your microphone is correctly connected and recognized by the system.
-- **Key Presses Not Working:** Verify that the correct push-to-talk key is set. Check the test mode setting if you're not seeing key presses.
-- **High Latency or Delays:** Adjust the release delay setting or the update interval for smoother performance.
+Fork, improve, and submit a pull request.
 
-## License
+## 🙏 Acknowledgments
 
-This project is licensed under the GPL 3.0 License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your improvements or fixes.
-
-## Acknowledgments
-
-- [PyQt6](https://pypi.org/project/PyQt6/) for the GUI framework.
-- [PyAudio](https://pypi.org/project/PyAudio/) for handling audio streams.
-- [pynput](https://pypi.org/project/pynput/) for managing keyboard input.
-- [pywin32](https://pypi.org/project/pywin32/) for Windows-specific key handling.
-
+- [PyQt6](https://pypi.org/project/PyQt6/)
+- [PyAudio](https://pypi.org/project/PyAudio/)
+- [pynput](https://pypi.org/project/pynput/)
+- [pywin32](https://pypi.org/project/pywin32/)
