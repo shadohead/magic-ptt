@@ -2,6 +2,8 @@
 
 Magic Push-to-Talk (MagicPTT) is a desktop app that provides customizable push-to-talk functionality by activating a key when your voice crosses a set threshold.
 
+![Screenshot 2024-09-01 000925](https://github.com/user-attachments/assets/651970b3-2151-476d-bda5-6deb30d64fd7)
+
 ## 📥 Download
 
 You can **download the latest version as a `.exe` file** from the [Releases](../../releases) tab for easy installation.
